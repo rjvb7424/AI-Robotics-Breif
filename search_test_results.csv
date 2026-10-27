@@ -1,46 +1,46 @@
 Puzzle,Search,Heuristic,Loop check,Seed,Node limit,Result,Path length,Nodes tested,Nodes generated,Time (s)
-Easy,BFS,-,On,-,100000,Solved,13.0,64812,654108,22.1
-Easy,DFS (fixed order),-,On,-,50000,Node limit reached,,7332,76806,5.63
-Easy,DFS (randomised),-,On,1,50000,Solved,140.0,141,1249,0.04
-Easy,DFS (randomised),-,On,2,50000,Solved,696.0,697,7325,0.28
-Easy,DFS (randomised),-,On,3,50000,Solved,942.0,943,10360,0.62
-Easy,DFS (randomised),-,On,4,50000,Solved,1084.0,1085,11808,0.46
-Easy,DFS (randomised),-,On,5,50000,Solved,1008.0,1009,10489,0.46
-Easy,Greedy best-first,h1,On,-,100000,Solved,13.0,136,1302,0.05
-Easy,Greedy best-first,h2,On,-,100000,Solved,13.0,35,299,0.05
-Easy,A*,h1,On,-,100000,Solved,13.0,3468,35073,3.38
-Easy,A*,h2,On,-,100000,Solved,13.0,601,5701,0.22
-Easy,BFS,-,Off,-,20000,Node limit reached,,2011,20001,0.76
-Easy,DFS (fixed order),-,Off,-,20000,Node limit reached,,1741,20001,0.68
-Easy,Greedy best-first,h2,Off,-,20000,Solved,13.0,43,367,0.17
-Easy,A*,h2,Off,-,20000,Node limit reached,,2142,20001,1.29
-Medium,BFS,-,On,-,100000,Solved,103.0,2186,11425,1.13
-Medium,DFS (fixed order),-,On,-,50000,Solved,446.0,646,3213,0.34
-Medium,DFS (randomised),-,On,1,50000,Solved,512.0,662,3215,0.34
-Medium,DFS (randomised),-,On,2,50000,Solved,545.0,905,4578,0.49
-Medium,DFS (randomised),-,On,3,50000,Solved,506.0,890,4375,0.58
-Medium,DFS (randomised),-,On,4,50000,Solved,464.0,547,2692,0.28
-Medium,DFS (randomised),-,On,5,50000,Solved,559.0,902,4476,0.42
-Medium,Greedy best-first,h1,On,-,100000,Solved,115.0,1877,9882,0.98
-Medium,Greedy best-first,h2,On,-,100000,Solved,119.0,1820,9575,0.94
-Medium,A*,h1,On,-,100000,Solved,103.0,2162,11318,1.17
-Medium,A*,h2,On,-,100000,Solved,103.0,2119,11115,1.11
-Medium,BFS,-,Off,-,20000,Node limit reached,,6093,20001,2.74
-Medium,DFS (fixed order),-,Off,-,20000,Node limit reached,,8002,20001,4.1
-Medium,Greedy best-first,h2,Off,-,20000,Node limit reached,,5234,20001,2.81
-Medium,A*,h2,Off,-,20000,Node limit reached,,5883,20001,2.81
-Hard,BFS,-,On,-,100000,Solved,119.0,57093,412496,28.31
-Hard,DFS (fixed order),-,On,-,50000,Solved,10405.0,20611,140261,13.38
-Hard,DFS (randomised),-,On,1,50000,Solved,6065.0,14630,98865,9.32
-Hard,DFS (randomised),-,On,2,50000,Solved,6095.0,21401,146910,12.33
-Hard,DFS (randomised),-,On,3,50000,Solved,2925.0,3326,22982,2.02
-Hard,DFS (randomised),-,On,4,50000,Solved,3402.0,5069,33821,4.69
-Hard,DFS (randomised),-,On,5,50000,Solved,8963.0,22484,152276,13.04
-Hard,Greedy best-first,h1,On,-,100000,Solved,131.0,45031,315282,23.19
-Hard,Greedy best-first,h2,On,-,100000,Solved,142.0,32181,222457,17.57
-Hard,A*,h1,On,-,100000,Solved,119.0,54902,395848,28.63
-Hard,A*,h2,On,-,100000,Solved,119.0,52312,374884,34.16
-Hard,BFS,-,Off,-,20000,Node limit reached,,3004,20001,2.01
-Hard,DFS (fixed order),-,Off,-,20000,Node limit reached,,3078,20001,1.6
-Hard,Greedy best-first,h2,Off,-,20000,Node limit reached,,3127,20001,1.96
-Hard,A*,h2,Off,-,20000,Node limit reached,,3094,20001,2.13
+Easy,BFS,-,On,-,100000,Solved,13.0,64812,654108,13.51
+Easy,DFS (fixed order),-,On,-,100000,Node limit reached,,14225,151131,16.53
+Easy,DFS (randomised),-,On,1,100000,Solved,140.0,141,1249,0.03
+Easy,DFS (randomised),-,On,2,100000,Solved,696.0,697,7325,6.36
+Easy,DFS (randomised),-,On,3,100000,Solved,942.0,943,10360,0.33
+Easy,DFS (randomised),-,On,4,100000,Solved,1084.0,1085,11808,0.38
+Easy,DFS (randomised),-,On,5,100000,Solved,1008.0,1009,10489,0.35
+Easy,Greedy best-first,h1,On,-,100000,Solved,13.0,136,1302,0.03
+Easy,Greedy best-first,h2,On,-,100000,Solved,13.0,35,299,0.01
+Easy,A*,h1,On,-,100000,Solved,13.0,3468,35073,0.78
+Easy,A*,h2,On,-,100000,Solved,13.0,601,5701,0.19
+Easy,BFS,-,Off,-,100000,Node limit reached,,9744,100001,2.62
+Easy,DFS (fixed order),-,Off,-,100000,Node limit reached,,8697,100001,11.7
+Easy,Greedy best-first,h2,Off,-,100000,Solved,13.0,43,367,0.01
+Easy,A*,h2,Off,-,100000,Node limit reached,,10669,100001,7.18
+Medium,BFS,-,On,-,100000,Solved,103.0,2186,11425,0.62
+Medium,DFS (fixed order),-,On,-,100000,Solved,446.0,646,3213,0.18
+Medium,DFS (randomised),-,On,1,100000,Solved,512.0,662,3215,0.19
+Medium,DFS (randomised),-,On,2,100000,Solved,545.0,905,4578,0.26
+Medium,DFS (randomised),-,On,3,100000,Solved,506.0,890,4375,0.25
+Medium,DFS (randomised),-,On,4,100000,Solved,464.0,547,2692,0.16
+Medium,DFS (randomised),-,On,5,100000,Solved,559.0,902,4476,0.26
+Medium,Greedy best-first,h1,On,-,100000,Solved,115.0,1877,9882,0.54
+Medium,Greedy best-first,h2,On,-,100000,Solved,119.0,1820,9575,0.54
+Medium,A*,h1,On,-,100000,Solved,103.0,2162,11318,0.62
+Medium,A*,h2,On,-,100000,Solved,103.0,2119,11115,0.64
+Medium,BFS,-,Off,-,100000,Node limit reached,,27734,100001,7.8
+Medium,DFS (fixed order),-,Off,-,100000,Node limit reached,,40002,100001,35.55
+Medium,Greedy best-first,h2,Off,-,100000,Node limit reached,,26000,100001,23.29
+Medium,A*,h2,Off,-,100000,Node limit reached,,25215,100001,8.52
+Hard,BFS,-,On,-,100000,Solved,119.0,57093,412496,17.44
+Hard,DFS (fixed order),-,On,-,100000,Solved,10405.0,20611,140261,9.15
+Hard,DFS (randomised),-,On,1,100000,Solved,6065.0,14630,98865,6.12
+Hard,DFS (randomised),-,On,2,100000,Solved,6095.0,21401,146910,8.31
+Hard,DFS (randomised),-,On,3,100000,Solved,2925.0,3326,22982,1.63
+Hard,DFS (randomised),-,On,4,100000,Solved,3402.0,5069,33821,1.96
+Hard,DFS (randomised),-,On,5,100000,Solved,8963.0,22484,152276,9.35
+Hard,Greedy best-first,h1,On,-,100000,Solved,131.0,45031,315282,14.0
+Hard,Greedy best-first,h2,On,-,100000,Solved,142.0,32181,222457,10.09
+Hard,A*,h1,On,-,100000,Solved,119.0,54902,395848,17.5
+Hard,A*,h2,On,-,100000,Solved,119.0,52312,374884,16.98
+Hard,BFS,-,Off,-,100000,Node limit reached,,14958,100001,5.07
+Hard,DFS (fixed order),-,Off,-,100000,Node limit reached,,15386,100001,18.67
+Hard,Greedy best-first,h2,Off,-,100000,Node limit reached,,15647,100001,11.35
+Hard,A*,h2,Off,-,100000,Node limit reached,,15412,100001,6.7
