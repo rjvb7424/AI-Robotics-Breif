@@ -1,0 +1,17 @@
+Search,Heuristic,Loop check,Seed,Node limit,Result,Path length,Solution cost,Nodes tested,Nodes generated,Time (s)
+BFS,-,On,-,500000,Solved,17.0,58.0,139790,552846,27.06
+Uniform-cost,-,On,-,500000,Solved,17.0,58.0,173208,642807,35.86
+DFS (fixed order),-,On,-,500000,Solved,3256.0,16508.0,5826,23805,2.15
+DFS (randomised),-,On,1,500000,Solved,214.0,741.0,364,1061,0.05
+DFS (randomised),-,On,2,500000,Solved,192.0,659.0,314,965,0.04
+DFS (randomised),-,On,3,500000,Solved,347.0,1265.0,523,1647,0.07
+DFS (randomised),-,On,4,500000,Solved,704.0,2550.0,1050,3499,0.33
+DFS (randomised),-,On,5,500000,Solved,2565.0,8853.0,3879,13374,0.78
+Greedy best-first,h1,On,-,500000,Solved,17.0,58.0,703,2204,0.1
+Greedy best-first,h2,On,-,500000,Solved,17.0,58.0,35,138,0.01
+A*,h1,On,-,500000,Solved,17.0,58.0,9745,40750,1.99
+A*,h2,On,-,500000,Solved,17.0,58.0,108,591,0.03
+BFS,-,Off,-,500000,Node limit reached,,,186336,500001,28.37
+DFS (fixed order),-,Off,-,500000,Memory limit reached,,,22000,51332,10.27
+Greedy best-first,h2,Off,-,500000,Memory limit reached,,,1000,2578,1.93
+A*,h2,Off,-,500000,Solved,17.0,58.0,239,1417,0.06
